@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    background-color: white;
+    padding: 10px;
+    max-width:100%  ;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-top: 1%;
+}
+.nav-btn{
+      color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px red;
+    font-weight: 400;
+}
+a{
+     padding: 0 20px;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     
+}
+.middle-container{
+    display: flex;
+    padding: 20px;
+    background-color: #FFBFCA;
+    height: 90vh;
+}
+.middle-content{
+    margin: 10%;
+    font-size: 2vw;
+
+}
+.middle-content p{
+    padding: 20px;
+    font-size: 20px;
+}
+.middle-image{
+    max-width: 100%;
+    display: flex;
+}
+.middle-image1{
+    height: 70vh;
+}
+.bottom-cards{
+    display: flex;
+}
+.bottom-content{
+    text-align: center;
+    /* padding: 10px; */
+}
+span{
+    color: red;
+}
+.middle-btn1{
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px red;
+}
+.middle-btn2{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px red;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    background-color: #FFBFCA;
+    margin: 20px;
+}
+.bottom-content{
+    padding: 2em;
+}
+.bottom-cards{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-card{
+    text-align: center;
+    display: inline-block;
+    flex-direction: column;
+    width: 20rem;
+    margin: 2%;
+
+}
+.p1{
+    font-weight: bold;
+    padding: 1em;
+}
+
+@media only screen and (max-width:1100px) {
+     .middle-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+   
+    .middle-content,
+    .middle-image {
+        width: 100%;
+        margin: 0;
+        text-align: center; 
+    }
+
+   
+    .middle-image1 {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .middle-content h1 {
+        font-size: 2em; 
+    }
+
+    .middle-content p {
+        font-size: 1em;
+    }
+}
