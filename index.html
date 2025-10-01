@@ -16,15 +16,21 @@
     <div class="main-container">
         <!-- navigation bar  -->
         <nav class="navbar">
+                 <!-- Hamburger button -->
+  <div class="hamburger" onclick="toggleMenu()">
+    &#9776; <!-- Unicode hamburger icon -->
+  </div>
             <!-- company logo  -->
              <img class="logo" src="assests/Group 155.png" alt="">
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Our services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"> services</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
+
+       
 
             <!-- button  -->
              <button type="submit" class="nav-btn">Get A Quote</button>
@@ -90,7 +96,7 @@
             <div class="bottom-card">
             <img src="assests/CMS.png" alt="">
             <p class="p1">A Resume That Passes ATS Filters</p>
-            <p class="p2">Get a professionally written, keyword-optimized resume that lands in recruiter inboxes—not rejection piles.</p>
+            <p class="p2">Get a professionally written, keyword-optbimized resume that lands in recruiter inboxes—not rejection piles.</p>
         </div>
         <div class="bottom-card">
             <img src="assests/Frame 296.png" alt="">
@@ -111,5 +117,13 @@
        </div>
 
     </div>
+
+
+    <script>
+function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('show');
+}
+</script>
 </body>
 </html>
