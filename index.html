@@ -18,7 +18,7 @@
         <nav class="navbar">
                  <!-- Hamburger button -->
   <div class="hamburger" onclick="toggleMenu()">
-    &#9776; <!-- Unicode hamburger icon -->
+    &#9776;
   </div>
             <!-- company logo  -->
              <img class="logo" src="assests/Group 155.png" alt="">
@@ -36,6 +36,7 @@
              <button type="submit" class="nav-btn">Get A Quote</button>
         </nav>
 
+        <!-- middle-main page section -->
         <div class="middle-container ">
             <div class="middle-content">
                 <h1 class="middle-heading">Your Resume <br>
@@ -51,6 +52,8 @@
                      <button type="submit" class="middle-btn2">CONTACT US</button>
                 </div>
             </div>
+
+                <!-- middle page image -->
              <div class="middle-image">
                 <img src="assests/Group 3.png" alt="" class="middle-image1">
                  <div class="extra-frames">
@@ -61,7 +64,9 @@
                 
         </div>
 
+       
        <div class="bottom-section">
+            <!-- page bottom section 1 -->
         <div class="bottom-content">
                 <button type="button" class="btn">What you get</button>
                 <h1>You’re not just another applicant and your resume shouldn’t look like one</h1>
@@ -88,6 +93,8 @@
             <p class="p2">Interview preperation with real HR professionals so you speak clearly,confidently, and convincingly.</p>
         </div>
         </div>
+
+           <!-- bottom section 2 -->
         <div class="bottom-content">
                 <button type="button" class="btn">What you get</button>
                 <h1>You’re not just another applicant and your resume shouldn’t look like one</h1>
@@ -118,12 +125,13 @@
 
     </div>
 
-
-    <script>
-function toggleMenu() {
-  const navLinks = document.querySelector('.nav-links');
-  navLinks.classList.toggle('show');
-}
-</script>
+    <!-- Script logic for hamburger icon -->
+     <script>
+      function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
+
