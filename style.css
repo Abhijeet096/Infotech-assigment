@@ -132,7 +132,7 @@ span{
     padding: 1em;
 }
 
-/* Hamburger button hidden on desktop */
+
 .hamburger {
   display: none;
   font-size: 28px;
@@ -190,7 +190,7 @@ span{
 
 @media screen and (max-width: 431px) {
   .nav-links {
-    display: none; /* hide links */
+    display: none; 
     flex-direction: row;
     
     background:transparent;
@@ -214,7 +214,7 @@ span{
 
   
   .hamburger {
-    display: block; /* show button on small screens */
+    display: block;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -234,3 +234,4 @@ span{
     display: flex;
     flex-wrap: wrap;
 }
+
