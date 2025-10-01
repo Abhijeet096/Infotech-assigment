@@ -7,7 +7,6 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    /* margin: auto; */
     background-color: white;
     padding: 10px;
     max-width:100%  ;
@@ -25,6 +24,10 @@
     border-radius: 20px;
     box-shadow: 0px 0px 5px 1px red;
     font-weight: 400;
+    width: 10%;
+    height: 5%;
+    margin-top: 0.5em;
+    
 }
 a{
      padding: 0 20px;
@@ -33,6 +36,27 @@ a{
      font-size: 20px;
      
 }
+.extra-frames{
+     position: absolute;
+    top: 290px; 
+    right: 290px; 
+    width: 180px; 
+    z-index: 10; 
+    
+}
+.frame1{
+   width: 200px;
+   height: auto;
+}
+.frame2{
+    position: absolute;
+    width: 190px;
+    top: 70px;
+    right: -280px;
+    z-index: 8;
+
+}
+
 .middle-container{
     display: flex;
     padding: 20px;
@@ -51,6 +75,7 @@ a{
 .middle-image{
     max-width: 100%;
     display: flex;
+    position: relative;
 }
 .middle-image1{
     height: 70vh;
@@ -60,7 +85,6 @@ a{
 }
 .bottom-content{
     text-align: center;
-    /* padding: 10px; */
 }
 span{
     color: red;
@@ -114,8 +138,6 @@ span{
         height: auto;
     }
 
-   
-    .middle-content,
     .middle-image {
         width: 100%;
         margin: 0;
@@ -135,4 +157,24 @@ span{
     .middle-content p {
         font-size: 1em;
     }
+    .extra-frames{
+     position: absolute;
+    top: 290px; 
+    left:100px; 
+    width: 180px; 
+    z-index: 10; 
+    
+}
+.frame1{
+   width: 200px;
+   height: auto;
+}
+.frame2{
+    position: absolute;
+    width: 190px;
+    top: 70px;
+    left: -80px;
+    z-index: 8;
+
+}
 }
